@@ -100,7 +100,7 @@ nav hr {
     letter-spacing: 1px;
 }
 .box {
-    display: inline-block;
+    display: block;
     width: 50%;
     float: left;
 }
