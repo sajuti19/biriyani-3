@@ -17,6 +17,6 @@
 			document.getElementById("slide").src = images[i];
 			if(i < images.length - 1){ i++;}
 			 else { i = 0}
-			setTimeout("changeImg()", time);
+			setTimeout(changeImg, time);
 		}
 		window.onload = changeImg;
