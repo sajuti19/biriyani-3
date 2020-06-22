@@ -38,7 +38,7 @@ nav a {
     text-decoration: none;
     
 }
-.active {
+nav a:active,.active {
     background-color: #ffffff;
     border-left: 10px solid #002266;
 }
