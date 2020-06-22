@@ -1,0 +1,113 @@
+@font-face {
+    font-family: "main";
+    src: url(../assets/fonts/ArimaKoshi-Bold.otf);
+}
+@font-face {
+    font-family: "all";
+    src: url(../assets/fonts/Acme-Regular.ttf);
+}
+@font-face {
+    font-family: "title";
+    src: url(../assets/fonts/KGHAPPY.ttf);
+}
+body {
+    overflow-x: hidden;
+    margin: 0;
+    font-family: all;
+}
+.left {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 17%;
+    height: 100vh;
+    background-color: #cce5ff;
+}
+.right {
+    position: absolute;
+    top: 0;
+    left: 17%;
+    width: 83%;
+}
+nav a {
+    display: block;
+    padding: 5px 20px;
+    margin-top: 30px ;
+    font-size: 150%;
+    color: #002266;
+    text-decoration: none;
+    
+}
+.active {
+    background-color: #ffffff;
+    border-left: 10px solid #002266;
+}
+nav a:hover {
+    border-left: 10px solid #002266;
+    transition: .1s ease-in;
+}
+nav p {
+    text-align: center;
+    margin: 50px auto 20px auto;
+    color:  #002266;
+    font-size: 250%;
+    width: 95%;
+}
+nav hr {
+    border:1px solid #ffcc00;
+    width: 80%;
+}
+.icon {
+    width: 100px;
+    margin: 0 auto;
+    display: block;
+}
+.right h1 {
+    font-family: main;
+    color: #002266;
+    font-size: 250%;
+    text-align: center;
+    padding: 0 50px;
+    margin: 0px;
+}
+#slide {
+    margin : 0px auto;
+    width: 600px;
+    height: 337px;
+    display: block;
+    padding: 10px;
+    border: 2px solid #96a4c0;
+    border-radius: 5px;
+}
+ 
+
+.title{
+    font-family: main;
+    color: #002266;
+    font-size: 200%;
+    text-align: center;
+    padding: 0 50px;
+    margin: 0;
+}
+.btm{
+    font-family: all;
+    color: #002266;
+    font-size: 130%;
+    text-align: center;
+    padding: 0 20px;
+    margin: 0;
+    opacity: .7;
+    letter-spacing: 1px;
+}
+.box {
+    display: inline-block;
+    width: 50%;
+    float: left;
+}
+
+.right hr {
+    border:3px solid #ffcc00;
+    width: 30%;
+    margin: 20px auto;
+    border-radius: 20px;
+}
